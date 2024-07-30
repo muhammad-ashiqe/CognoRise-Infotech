@@ -1,0 +1,136 @@
+/* importing google font  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #d1c9c9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height :100vh;
+}
+
+.currency-converter{
+  box-shadow: #d1c9c9;
+  padding: 50px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #090eff;
+}
+
+.form-label{
+  margin: 20px;
+  width: 150px;
+}
+.form-input{
+  width: 60%;
+  height: 50px;
+  border: 1px solid #d1c9c9;
+  border-radius: 9px;
+  align-items: center;
+  text-align: center;
+}
+
+.form-group{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.form-section{
+  display: flex;
+  gap: 10px;
+}
+
+.swap-icon{
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.swap-icon img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  
+}
+.swap-icon img:hover{
+  opacity: 0.8;
+}
+
+.currency-dropdown{
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.currency-select{
+  border: 1px solid #d1c9c9;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.currency-select img{
+  width: 30px;
+  height: 30px;
+  
+}
+
+.loading{
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.submit-btn{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border-radius: 9px;
+  border: none;
+  background: #090eff;
+  font-weight: 600;
+  font-size: medium;
+  margin-bottom: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.exchange-rate-result{
+  text-align: center;
+  font-weight: bold;
+}
+
+.result-box{
+  border: 1px solid #090eff;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-box p{
+  color: #090eff;
+}
+
